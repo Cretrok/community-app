@@ -27,7 +27,7 @@ li{
   list-style: none;
 }
 header{
-  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD);
+  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 75%);
   border-radius: 25px;
   height: 250px;
   padding: 1em;
@@ -78,7 +78,7 @@ main#mainPro h2{
   margin: 0.5em auto;
 }
 main#mainPro button{
-  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD);
+  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 75%);
   border-radius: 20px;
   color: #FFF;
   height: 40px;
