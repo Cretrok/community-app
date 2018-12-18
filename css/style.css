@@ -143,8 +143,10 @@ h1#h1Not{
   font-size: 1.6em;
 }
 img#imgNot{
-  margin-top: 7em;
-  width: 100%;
+  display: block;
+  margin: 7em auto 0 auto;
+  width: 368px;
+  max-width: 100%;
 }
 h2#h2Not{
   font-size: 1.3em;
