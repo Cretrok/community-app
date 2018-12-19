@@ -29,7 +29,7 @@ li{
 header{
   background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 75%);
   border-radius: 25px;
-  height: 250px;
+  height: 200px;
   padding: 1em;
 }
 p{
@@ -44,9 +44,67 @@ button{
   outline: none;
 }
 /*Estilos Index*/
+#indexCab h1, input{
+  display: inline-block;
+}
+#indexCab h1{
+  color: #FFF;
+  font-size: 1.5em;
+}
+#indexCab input{
+  background-color: rgba(230, 230, 230, 0.4);
+  background-image: url(../img/lupab.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  vertical-align: bottom;
+  outline: none;
+  position: absolute;
+  right: 1em;
+}
+#indexCab h2{
+  color: #FFF;
+  font-size: .8em;
+  margin: 2.5em auto 0 auto;
+}
 main#mainInd{
   position: relative;
-  top: -100px;
+  top: -75px;
+}
+#mainInd ul{
+  display: inline-flex;
+}
+#mainInd li{
+  background-color: #FFF;
+  border-radius: 25px;
+  display: inline-block;
+  margin-left: 1em;
+  width: 280px;
+}
+#mainInd img{
+  margin: 1em 0 0 1em;
+  height: 64px;
+  width: 64px;
+}
+.imgInPro, .infoInPro{
+  display: inline-block;
+  vertical-align: middle;
+}
+.infoInPro{
+  width: 160px;
+}
+.infoInPro h1{
+  font-size: 1em;
+  padding: .5em 1.2em 0;
+}
+.pInMain{
+  color: #8688A0;
+  font-size: .8em;
+  padding: 0 1.5em;
 }
 /*Estilos Profile*/
 header#headerPro img{
@@ -59,7 +117,7 @@ main#mainPro, section#experience{
   margin: 0 auto 1em auto;
   padding: 1.5em;
   position: relative;
-  top: -125px;
+  top: -100px;
   width: 90%;
 }
 main#mainPro{
@@ -78,7 +136,7 @@ main#mainPro h2{
   margin: 0.5em auto;
 }
 main#mainPro button{
-  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 75%);
+  background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 90%);
   border-radius: 20px;
   color: #FFF;
   height: 40px;
