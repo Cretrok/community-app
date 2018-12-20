@@ -70,7 +70,6 @@ button{
 }
 #indexCab input:focus{
   background-image: none;
-  border: 1px solid black;
   width: 125px;
 }
 #indexCab h2{
