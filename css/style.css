@@ -5,6 +5,10 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+  color: #20252E;
+}
 body{
   align-items: center;
   justify-content: center;
