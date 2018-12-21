@@ -190,7 +190,7 @@ main#mainPro h2{
   font-weight: 400;
   margin: 0.5em auto;
 }
-main#mainPro button{
+main#mainPro a button{
   background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 90%);
   border-radius: 20px;
   color: #FFF;
