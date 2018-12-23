@@ -32,7 +32,9 @@ li{
 }
 header{
   background-image: linear-gradient(to bottom right, #97E08D, #28B7BD 75%);
-  border-radius: 25px;
+  /*border-radius: 25px;*/
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
   height: 200px;
   padding: 1em;
 }
